@@ -151,6 +151,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #FFF;
 
 }
 
@@ -211,4 +212,44 @@ body{
 }
 .offer-img{
     margin-top: 42px;
+}
+
+/* style of holiday discount section */
+.holiday-section{
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 100px 150px;
+    padding: 0px 100px;
+    border-radius: 10px;
+}
+
+.holiday-info{
+    text-align: center;
+}
+
+.holiday-title{
+    color: #070211;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.holiday-discount{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 12px 0px;
+}
+
+.holiday{
+    color: #FF0000;
+}
+
+.holiday-details{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
 }
