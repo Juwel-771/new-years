@@ -276,3 +276,47 @@ body{
     top: 50px;
     left: -150px;
 }
+
+
+/* style of Newsletter */
+
+.news-section{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 110px;
+    margin: 100px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.news-title{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.news-parap{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input[type="email"]{
+    width: 180px;
+    border: none;
+    padding: 20px 60px;
+    background-color: #fff;
+    color: rgba(98, 94, 94, 0.05);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+button[type="submit"]{
+    background-color: #FF0000;
+    padding: 18px 50px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
