@@ -118,9 +118,9 @@ body{
 /* style of address section */
 .address-section{
     background-color: #ffd7b5;
-    padding: 80px;
+    padding: 120px;
     text-align: center;
-    margin: 90px 150px;
+    margin: 100px 150px;
     border-radius: 10px;
 }
 
