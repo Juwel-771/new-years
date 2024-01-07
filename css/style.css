@@ -117,10 +117,10 @@ body{
 
 /* style of address section */
 .address-section{
-    background-color: #ffd7b5;
+    background-color: rgba(255, 0, 0, 0.05);
     padding: 120px;
-    text-align: center;
     margin: 100px 150px;
+    text-align: center;
     border-radius: 10px;
 }
 
@@ -129,9 +129,7 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
-h3{
-    margin: 10px;
-}
+
 .single-word{
     color: #FF0000;
 }
@@ -144,4 +142,51 @@ h3{
     color: #faf3f3;
     background-color: #FF0000;
     font-weight: 700;
+}
+
+/* style of offer */
+
+.offer-section{
+    margin: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.best-offer{
+    margin: 0px 20px;
+}
+
+.offer-title{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.coming-soon{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+
+.offer-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.bg-ring{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
 }
