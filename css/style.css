@@ -160,8 +160,8 @@ body{
 
 .offer-title{
     color: #FF0000;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0;
 }
@@ -183,10 +183,32 @@ body{
 }
 
 .bg-ring{
-    width: 400px;
-    height: 400px;
-    background-color: aquamarine;
-    display: flex;
+    width: 450px;
+    height: 450px;
     border: 15px solid #FF0000;
     border-radius: 50%;
+    position: relative;
+}
+.ring-img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+}
+.offer-2024{
+    color: #FF0000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.details-2024{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.offer-img{
+    margin-top: 42px;
 }
