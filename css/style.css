@@ -320,3 +320,38 @@ button[type="submit"]{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+/* style of footer */
+
+.footer-section{
+    color:#FFF;
+    background-color: #070211;
+}
+
+.contact-list{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.office-contact{
+
+}
+
+.office-address{
+    width: 250px;
+    line-height: 20px;
+}
+
+.phone-mail{
+    display: flex;
+    
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    background: rgba(255, 255, 255, 0.15);
+}
