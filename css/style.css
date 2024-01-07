@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-img-title{
+    background-image: url('../images/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.title{
+    color: #fff;
+    margin: 150px 340px;
+    text-align: center;
+}
+
+.first-title{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.second-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
