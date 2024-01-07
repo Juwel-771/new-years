@@ -326,10 +326,10 @@ button[type="submit"]{
 .footer-section{
     color:#FFF;
     background-color: #070211;
+    padding: 100px;
 }
 
 .contact-list{
-    padding: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -350,8 +350,20 @@ button[type="submit"]{
 .social-icons{
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+
+.icon-modifu{
+    width: 50px;
+    padding: 10px;
 }
 
 hr{
     background: rgba(255, 255, 255, 0.15);
+}
+
+.last-address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
