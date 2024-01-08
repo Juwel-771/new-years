@@ -362,6 +362,12 @@ body{
   margin-bottom: 20px;
 }
 
+.item:hover{
+    background-color: rgba(255, 255, 255, 0.20);
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
 .image-part-two{
     display: flex;
     justify-content: space-between;
