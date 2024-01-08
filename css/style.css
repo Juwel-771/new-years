@@ -277,21 +277,20 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content:space-between;
+    position: relative;
 }
 
 .img-1{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin-right: 30px;
     z-index: 1;
 }
 
-.holiday-section .img-1{
-    mix-blend-mode: normal;
-}
 
 .img-2{
     position: relative;
+    z-index: 2;
 }
 
 .fif_img{
@@ -300,14 +299,19 @@ body{
     left: -150px;
 }
 
-.holiday-footer-img{
-
+.red-image{
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 10px;
 }
+
 
 /* style of portfolio */
 .portfolio-section{
     /* background-color: aquamarine; */
-    margin: 100px 150px;
+    margin: 0px 150px;
     /* padding: 0px 100px; */
     border-radius: 10px;
     margin-top: 120px;
@@ -327,7 +331,7 @@ body{
     font-size: 45px;
     font-weight: 800;
     text-transform: capitalize;
-    margin: 0px;
+    margin-top: 20px;
 }
 
 .portfolio-details{
@@ -355,7 +359,7 @@ body{
 }
 
 .item{
-  margin: 5px;
+  margin-bottom: 20px;
 }
 
 .image-part-two{
@@ -418,7 +422,7 @@ button[type="submit"]{
 
 .contact-list{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 }
 
@@ -426,6 +430,8 @@ button[type="submit"]{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-right: 200px;
 }
 .call, .mail{
     display: flex;
@@ -446,17 +452,22 @@ button[type="submit"]{
 }
 
 .office-contact{
-
+    width: 350px;
+    height: 100px;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;   
 }
 
-.office-address{
+/* .office-address{
     width: 350px;
     height: 100px;
     line-height: 40px;
     font-size: 22px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 .phone-mail{
     display: flex;    
@@ -473,8 +484,8 @@ button[type="submit"]{
     padding: 10px;
 }
 
-hr{
-    background: rgba(255, 255, 255, 0.15);
+hr.hr-color{
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .last-address{
