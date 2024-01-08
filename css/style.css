@@ -216,7 +216,6 @@ body{
 
 /* style of holiday discount section */
 .holiday-section{
-    background-color: rgba(255, 0, 0, 0.05);
     margin: 100px 150px;
     /* padding: 0px 100px; */
     border-radius: 10px;
@@ -277,7 +276,63 @@ body{
     left: -150px;
 }
 
+/* style of portfolio */
 
+.portfolio-section{
+    /* background-color: aquamarine; */
+    margin: 100px 150px;
+    /* padding: 0px 100px; */
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.portfolio-title{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.products-list{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.portfolio-details{
+    width: 800px;
+    color: #070211;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+.portfolio-image{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    margin-top: 50px;
+}
+.image-part-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-img{
+    width: 380px;
+    height: 380px;
+}
+
+.item{
+  margin: 5px;
+}
+
+.image-part-two{
+    display: flex;
+    justify-content: space-between;
+}
 /* style of Newsletter */
 
 .news-section{
