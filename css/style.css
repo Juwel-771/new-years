@@ -6,7 +6,7 @@ body{
 
 /* style of banner section */
 .banner-img-title{
-    background-image: url('../images/Banner\ Image.png');
+    background-image:linear-gradient(to top, rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url('../images/Banner\ Image.png'); ;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 150px;
@@ -71,10 +71,11 @@ body{
 /* style of welcome section */
 .welcome-section{
     padding: 50px;
-    background-image: url('../images/Vectorrr.png');
-    background-size: contain;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.0),rgba(0,0,0,0.9)),url('../images/Vectorrr.png');
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0 150px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -117,7 +118,7 @@ body{
 
 /* style of address section */
 .address-section{
-    background-color: rgba(255, 0, 0, 0.05);
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
     padding: 120px;
     margin: 100px 150px;
     text-align: center;
@@ -398,6 +399,7 @@ button[type="submit"]{
 .call, .mail{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .img-icon{
