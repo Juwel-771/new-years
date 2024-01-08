@@ -302,8 +302,9 @@ body{
 .portfolio-title{
     color: #FF0000;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
 
@@ -320,6 +321,7 @@ body{
     color: #070211;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 22px;
 }
 .portfolio-image{
@@ -366,6 +368,7 @@ body{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 input[type="email"]{
@@ -376,6 +379,7 @@ input[type="email"]{
     color: rgba(98, 94, 94, 0.05);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    font-family: 'Open Sans', sans-serif;   
 }
 
 button[type="submit"]{
@@ -387,6 +391,7 @@ button[type="submit"]{
     font-weight: 600;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* style of footer */
@@ -413,10 +418,16 @@ button[type="submit"]{
     align-items: center;
     justify-content: space-around;
 }
+.foot-tex{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
 
+}
 .img-icon{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-left: 50px;
 }
 
@@ -425,8 +436,12 @@ button[type="submit"]{
 }
 
 .office-address{
-    width: 250px;
-    line-height: 20px;
+    width: 350px;
+    height: 100px;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .phone-mail{
@@ -452,4 +467,10 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.reserved,.unsubsribe{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
